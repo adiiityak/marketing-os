@@ -1,0 +1,15 @@
+{
+  "name": "leadsquared-marketing-os",
+  "version": "0.3.0",
+  "description": "LeadSquared Marketing OS: brand rules, task agents (web design, creative, copy, design production, demo intelligence, SEO briefs, PPC campaigns, sales decks, brand review), Template Studio briefs, on-brand templates, and the Asset Library system of record with team feedback memory.",
+  "author": {
+    "name": "Aditya Kanojiya, LeadSquared Marketing"
+  },
+  "keywords": [
+    "leadsquared",
+    "marketing",
+    "brand",
+    "design system",
+    "agents"
+  ]
+}

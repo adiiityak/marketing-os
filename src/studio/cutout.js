@@ -20,7 +20,8 @@ async function ensureModel() {
   if (!loading) {
     loading = (async () => {
       if (!window.SelfieSegmentation) await loadScript("mp/selfie_segmentation.js");
-      const s = new window.SelfieSegmentation({ locateFile: (f) => "mp/" + f });
+      // Model files are published with a served extension (.wasm) appended.
+      const s = new window.SelfieSegmentation({ locateFile: (f) => "mp/" + f + (/\.(tflite|binarypb|data)$/.test(f) ? ".wasm" : "") });
       s.setOptions({ modelSelection: 0, selfieMode: false });
       await s.initialize();
       seg = s;

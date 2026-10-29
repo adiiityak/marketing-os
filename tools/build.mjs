@@ -41,6 +41,19 @@ patch("feedback-log",
   'await e.doc("assets/"+x.id).update(H),',
   'await e.doc("assets/"+x.id).update(H),(H.note||H.rating)&&e.collection("feedback").add({asset:x.id,title:x.title||"",type:x.type||"",channel:x.channel||"",angle:x.angle||"",segment:x.segment||"",tpl:(String(x.content||"").match(/Template:\\s*([a-z0-9-]+)/i)||[])[1]||null,rating:H.rating||0,note:H.note||"",by:xe&&xe.id||null,at:new Date().toISOString()}).catch(()=>{}),');
 
+// 4. Embedded plugin download (setup step) -> current plugin build.
+{
+  const m = html.match(/"(UEsDB[A-Za-z0-9+\/=]{100000,})"/);
+  const plug = P("dist/leadsquared-marketing-os.plugin");
+  if (m && fs.existsSync(plug)) {
+    const b64 = fs.readFileSync(plug).toString("base64");
+    patch("embedded-plugin", '"' + m[1] + '"', '"' + b64 + '"');
+    const ver = JSON.parse(fs.readFileSync(P("plugin/leadsquared-marketing-os/.claude-plugin/plugin.json"), "utf8")).version;
+    const skills = fs.readdirSync(P("plugin/leadsquared-marketing-os/skills")).length;
+    patch("plugin-version", 'version:"0.2.1",skills:30}', `version:"${ver}",skills:${skills}}`);
+  }
+}
+
 const industry = `<script>
 // Map repository items to the six filters: Education, Healthcare, Fintech / BFSI, Manufacturing, Events India, Events US.
 window.LSQIndustry=function(x){var p=String(x.p||""),pl=p.toLowerCase(),i=String(x.i||"");

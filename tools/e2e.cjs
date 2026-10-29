@@ -25,6 +25,7 @@ const step = (s) => console.log('STEP', s);
       return route.fulfill({ body: html, contentType: 'text/html' });
     }
     if (u.pathname === '/_blob/repoidx') return route.fulfill({ body: fs.readFileSync(path.join(__dirname, '../repo', repo)), contentType: 'application/json' });
+    if (u.pathname.startsWith('/mp/')) console.log('mpreq', u.pathname);
     const f = path.join(DIST, u.pathname);
     if (fs.existsSync(f)) return route.fulfill({ body: fs.readFileSync(f), contentType: f.endsWith('.js') ? 'text/javascript' : f.endsWith('.wasm') ? 'application/wasm' : 'application/octet-stream' });
     return route.fulfill({ status: 404, body: 'nf' });
