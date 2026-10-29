@@ -1,0 +1,86 @@
+{
+ "id": "webinar-light-healthcare",
+ "name": "Light healthcare webinar",
+ "group": "Webinar banners",
+ "channel": "LinkedIn, landing page hero, email header",
+ "w": 1200,
+ "h": 628,
+ "theme": "light",
+ "source": {
+  "file": "US Webinar - HC Marketing - Data-driven automation",
+  "key": "vLiS6VKXz9Z65bLw2CS6uU",
+  "node": "0:6"
+ },
+ "notes": "White-to-periwinkle wash with a faint blueprint grid and medical crosses, bold dark headline with a blue key phrase, speakers in blue circles with white name cards. Switch the button off for the No-CTA version (landing page hero, email header). Cut-out photos look best on the blue circles.",
+ "fields": [
+  {
+   "key": "title",
+   "label": "Webinar title",
+   "kind": "text",
+   "default": "Optimizing Healthcare Marketing Strategies with Data-Driven Automation",
+   "max": 80,
+   "accent": true,
+   "accentDefault": "Data-Driven Automation"
+  },
+  {
+   "key": "date",
+   "label": "Date",
+   "kind": "text",
+   "default": "Thursday, October 10th",
+   "max": 28
+  },
+  {
+   "key": "time",
+   "label": "Time",
+   "kind": "text",
+   "default": "10:00 am PT | 1:00 pm ET",
+   "max": 28
+  },
+  {
+   "key": "cta",
+   "label": "Button text",
+   "kind": "text",
+   "default": "Register Now",
+   "max": 20,
+   "optional": true,
+   "toggleLabel": "Show button"
+  }
+ ],
+ "speakers": {
+  "min": 1,
+  "max": 3,
+  "label": "Speakers",
+  "fields": [
+   "photo",
+   "name",
+   "title",
+   "company",
+   "logo"
+  ],
+  "defaults": [
+   {
+    "name": "Nathan Lenyszyn",
+    "title": "Vice President - Marketing",
+    "company": "HealthLink Dimensions",
+    "photo": "",
+    "logo": ""
+   },
+   {
+    "name": "Michael Haffey",
+    "title": "Enterprise Account Executive - Healthcare",
+    "company": "LeadSquared",
+    "photo": "",
+    "logo": ""
+   },
+   {
+    "name": "Douglas Carlson",
+    "title": "Head - Business Development & Partnerships",
+    "company": "LeadSquared",
+    "photo": "",
+    "logo": ""
+   }
+  ]
+ },
+ "css": "\n.t{background:linear-gradient(139.04deg,#fff 31.195%,#adc1f5 99.304%);font-family:Poppins,Arial,sans-serif;color:#232121}\n.grid{position:absolute;inset:0;background:\n  linear-gradient(90deg,rgba(40,80,200,.13) 1px,rgba(40,80,200,0) 1px) 32.6px 0/35.4px 32.2px,\n  linear-gradient(180deg,rgba(40,80,200,.13) 1px,rgba(40,80,200,0) 1px) 0 23px/35.4px 32.2px;\n  -webkit-mask-image:linear-gradient(139deg,rgba(0,0,0,0) 25%,rgba(0,0,0,.45) 60%,#000 100%);mask-image:linear-gradient(139deg,rgba(0,0,0,0) 25%,rgba(0,0,0,.45) 60%,#000 100%)}\n.glow{position:absolute;inset:0;background:radial-gradient(circle at 18px 741px,rgba(0,64,223,.9) 0,rgba(0,64,223,.6) 120px,rgba(0,64,223,.36) 200px,rgba(0,64,223,.14) 290px,rgba(0,64,223,0) 400px)}\n.art{position:absolute;left:0;top:0;width:1200px;height:628px;opacity:.87}\n.left{position:absolute;left:65px;top:87px;width:640px;display:flex;flex-direction:column;align-items:flex-start}\n.left>*{flex:none}\n.nocta .left{left:75px;top:102px}\n.lk{display:flex;flex-direction:column;align-items:flex-end;width:188px}\n.lk img{width:188px;height:auto}\n.lk span{margin-top:5.4px;font:700 13.6px/1 Poppins;letter-spacing:.2px;color:#232121}\n.title{margin-top:18.4px;width:624px;max-height:176px;padding-bottom:5px;margin-bottom:-5px;overflow:hidden;font:700 46px/1.231 Poppins;color:#232121}\n.nocta .title{margin-top:29.4px}\n.title .hl{color:#0040df}\n.date{margin-top:23px;height:39px;display:flex;align-items:center;gap:10.5px;padding:0 17px 0 14.7px;border-radius:3.52px;background:rgba(0,64,223,.11);font:600 19.49px/1 Poppins;color:#0935a2;white-space:nowrap}\n.nocta .date{margin-top:29px}\n.date svg{width:28.84px;height:28.84px;flex:none}\n.cta{margin-top:49px;height:59.85px;padding:0 25px;min-width:187.7px;display:flex;align-items:center;justify-content:center;border-radius:5.785px;background:#0040df;border:.956px solid #0040df;box-shadow:0 0 83.4px 21px rgba(0,64,223,.24);font:600 18px/1 Poppins;color:#fff;white-space:nowrap}\n.s{position:absolute;width:231px;height:226px}\n.c3 .s:nth-child(1){left:800.5px;top:68px}\n.c3 .s:nth-child(2){left:669.5px;top:319px}\n.c3 .s:nth-child(3){left:920.5px;top:314px}\n.c2 .s:nth-child(1){left:868px;top:76px}\n.c2 .s:nth-child(2){left:676px;top:318px}\n.c1 .s{left:800px;top:120px;transform:scale(1.25);transform-origin:50% 0}\n.ph{position:absolute;left:25.5px;top:0;width:180px;height:180px;border-radius:50%;overflow:hidden;background:#0040df}\n.ph img{width:100%;height:100%;object-fit:cover;object-position:center top}\n.ph b{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font:600 52px/1 Poppins;color:#fff}\n.card{position:absolute;left:0;top:153px;width:231px;height:69.9px;border-radius:10.56px;background:#fff;box-shadow:0 3px 17.7px rgba(88,87,123,.14);padding:12.5px 16px 0 22px}\n.c3 .s:nth-child(n+2) .card{top:157px}\n.card .n{height:18px;font:600 14.38px/18px Poppins;color:#000;white-space:nowrap;overflow:hidden}\n.card .d{margin-top:3px;width:110px;max-height:24px;overflow:hidden;font:400 9.85px/11.64px Poppins;color:#000}\n.card.nologo .d{width:190px}\n.co{position:absolute;right:16px;top:26px;width:84px;height:33px;display:flex;align-items:center;justify-content:flex-end}\n.co img{max-width:84px;max-height:33px;object-fit:contain;object-position:right center}\n.co b{font:600 10.5px/1.15 Poppins;color:#0040df;text-align:right;max-height:36px;overflow:hidden}\n",
+ "html": "\n<div class=\"grid\"></div>\n<div class=\"glow\"></div>\n<svg class=\"art\" viewBox=\"0 0 1200 628\" fill=\"none\">\n  <defs>\n    <linearGradient id=\"webinar-light-healthcare-f\" x1=\"0\" x2=\"1\" y1=\"0\" y2=\"0\"><stop offset=\"0\" stop-color=\"#fff\" stop-opacity=\"0\"/><stop offset=\".55\" stop-color=\"#fff\" stop-opacity=\".55\"/><stop offset=\"1\" stop-color=\"#fff\" stop-opacity=\".9\"/></linearGradient>\n    <linearGradient id=\"webinar-light-healthcare-o\" x1=\"0\" x2=\"1\" y1=\"0\" y2=\"0\"><stop offset=\"0\" stop-color=\"#fff\" stop-opacity=\".15\"/><stop offset=\"1\" stop-color=\"#fff\" stop-opacity=\".95\"/></linearGradient>\n  </defs>\n  <path d=\"M651 98h48v50h50v48h-50v50h-48v-50h-50v-48h50z\" fill=\"url(#webinar-light-healthcare-f)\"/>\n  <path d=\"M1052 202h38v41h41v38h-41v41h-38v-41h-41v-38h41z\" fill=\"url(#webinar-light-healthcare-f)\"/>\n  <path d=\"M913 168h20v21h21v20h-21v21h-20v-21h-21v-20h21z\" fill=\"url(#webinar-light-healthcare-f)\"/>\n  <g stroke=\"url(#webinar-light-healthcare-o)\" stroke-width=\"2.2\">\n    <path d=\"M664 228h42v43h43v42h-43v43h-42v-43h-43v-42h43z\"/>\n    <path d=\"M970 173h42v42h42v42h-42v42h-42v-42h-42v-42h42z\"/>\n    <path d=\"M813 213h20v19h19v20h-19v19h-20v-19h-19v-20h19z\"/>\n    <path d=\"M906 256h20v21h21v20h-21v21h-20v-21h-21v-20h21z\"/>\n    <path d=\"M990 94h20v23h23v20h-23v23h-20v-23h-23v-20h23z\"/>\n    <path d=\"M1155 237h18v19h19v18h-19v19h-18v-19h-19v-18h19z\"/>\n  </g>\n  <g fill=\"#fff\" fill-opacity=\".85\"><circle cx=\"785\" cy=\"186\" r=\"5\"/><circle cx=\"821\" cy=\"317\" r=\"8\"/><circle cx=\"1137\" cy=\"173\" r=\"8\"/><circle cx=\"840\" cy=\"127\" r=\"2.5\"/><circle cx=\"1081\" cy=\"143\" r=\"3\"/></g>\n</svg>\n<div class=\"wrap {{^cta}}nocta{{/cta}}\">\n  <div class=\"left\">\n    <div class=\"lk\"><img src=\"{{logoColor}}\" alt=\"\"><span>WEBINAR</span></div>\n    <div class=\"title\" data-fit=\"32\">{{{titleHtml}}}</div>\n    <div class=\"date\"><svg viewBox=\"0 0 29 29\" fill=\"none\" stroke=\"#0935a2\" stroke-width=\"2.1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3\" y=\"4.6\" width=\"23\" height=\"21.4\" rx=\"4\"/><path d=\"M3 11.2h23M9.2 2.5v4.2M19.8 2.5v4.2\"/><path d=\"M9 16.4h.01M14.5 16.4h.01M20 16.4h.01M9 21h.01M14.5 21h.01\" stroke-width=\"2.8\"/></svg><span>{{date}}{{#time}} | {{time}}{{/time}}</span></div>\n    {{#cta}}<div class=\"cta\">{{cta}}</div>{{/cta}}\n  </div>\n</div>\n<div class=\"spk c{{speakerCount}}\">\n  {{#speakers}}<div class=\"s\">\n    <div class=\"ph\">{{#photo}}<img src=\"{{photo}}\" alt=\"\">{{/photo}}{{^photo}}<b>{{initials}}</b>{{/photo}}</div>\n    <div class=\"card {{^logo}}{{^company}}nologo{{/company}}{{/logo}}\">\n      <div class=\"n\" data-fit=\"11\">{{name}}</div>\n      <div class=\"d\" data-fit=\"8\">{{title}}</div>\n      {{#logo}}<div class=\"co\"><img src=\"{{logo}}\" alt=\"\"></div>{{/logo}}{{^logo}}{{#company}}<div class=\"co\"><b>{{company}}</b></div>{{/company}}{{/logo}}\n    </div>\n  </div>{{/speakers}}\n</div>"
+}

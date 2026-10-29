@@ -1,0 +1,97 @@
+{
+ "id": "webinar-navy-finance",
+ "name": "Navy finance webinar",
+ "group": "Webinar banners",
+ "channel": "LinkedIn, landing page hero, email header",
+ "w": 1200,
+ "h": 628,
+ "theme": "dark",
+ "source": {
+  "file": "Credit Meets Context",
+  "key": "D6tZ67CctykIQTpwLlcDh5",
+  "node": "43:1497"
+ },
+ "notes": "Dark navy BFSI banner with soft blue light beams, a white logo pill bleeding off the left edge (LeadSquared WEBINAR + partner logo) and speakers in slanted blue frames with white company-logo tiles. Cut-out (transparent PNG) photos look best: the head breaks out above the frame.",
+ "fields": [
+  {
+   "key": "partnerLogo",
+   "label": "Partner logo (on white)",
+   "kind": "logo",
+   "default": ""
+  },
+  {
+   "key": "title",
+   "label": "Webinar title",
+   "kind": "text",
+   "default": "Credit Meets Context:",
+   "max": 48,
+   "accent": true,
+   "accentDefault": ""
+  },
+  {
+   "key": "subhead",
+   "label": "Subhead (italic, Enter for a line break)",
+   "kind": "textarea",
+   "default": "Why Visibility Across Teams\nis the Ultimate Superpower",
+   "max": 70
+  },
+  {
+   "key": "date",
+   "label": "Date",
+   "kind": "text",
+   "default": "17 September 2025",
+   "max": 24
+  },
+  {
+   "key": "time",
+   "label": "Time",
+   "kind": "text",
+   "default": "5 PM IST",
+   "max": 16
+  },
+  {
+   "key": "cta",
+   "label": "Button text (leave empty to hide)",
+   "kind": "text",
+   "default": "",
+   "max": 20
+  }
+ ],
+ "speakers": {
+  "min": 1,
+  "max": 3,
+  "label": "Speakers",
+  "fields": [
+   "photo",
+   "name",
+   "title",
+   "company",
+   "logo"
+  ],
+  "defaults": [
+   {
+    "name": "Saral Sharma",
+    "title": "Head - Product & Communication",
+    "company": "AU Small Finance Bank",
+    "photo": "",
+    "logo": ""
+   },
+   {
+    "name": "Pramod Mohandas",
+    "title": "Product Leader",
+    "company": "Kissht",
+    "photo": "",
+    "logo": ""
+   },
+   {
+    "name": "Vineet Sharma",
+    "title": "Director - Business Development (BFSI)",
+    "company": "LeadSquared",
+    "photo": "",
+    "logo": ""
+   }
+  ]
+ },
+ "css": "\n.t{background:#0c1630;font-family:Poppins,Arial,sans-serif;color:#fff}\n.bm{position:absolute;width:769.86px;height:1564.53px;transform:rotate(-150.17deg);background:linear-gradient(180deg,rgba(0,64,223,0) 8.655%,#0040df 79.991%);opacity:.072}\n.bm1{left:581.5px;top:-542.7px}.bm2{left:633.2px;top:-512.8px}.bm3{left:685px;top:-482.9px}.bm4{left:736.7px;top:-453.1px}\n.bm5{left:788.4px;top:-423.2px}.bm6{left:840.1px;top:-393.3px}.bm7{left:891.9px;top:-363.5px}.bm8{left:943.6px;top:-333.6px}\n.bm9{left:995.3px;top:-303.7px}.bm10{left:1048px;top:-273.3px}.bm11{left:1100.7px;top:-242.9px}.bm12{left:1148.2px;top:-236.2px}.bm13{left:1155.8px;top:-155.6px}\n.shade{position:absolute;inset:0;background:linear-gradient(238.4deg,rgba(0,9,32,0) 30.4%,#000920 97.8%)}\n.pill{position:absolute;left:-33px;top:118px;height:66.76px;border-radius:33.4px;background:#fff;display:flex;align-items:center;padding:0 46px 0 101px}\n.lk{display:flex;flex-direction:column;align-items:flex-end;width:154px;flex:none;margin-top:4px}\n.lk img{width:154px;height:auto}\n.lk span{font:700 10.6px/1 Poppins;letter-spacing:.35px;color:#1b2440;margin-top:4.5px}\n.pill .dv{width:1px;height:42px;background:#a3abbd;margin:0 17px 0 20px;flex:none}\n.pill .pl{max-width:120px;height:48px;object-fit:contain;object-position:center}\n.copy{position:absolute;left:68px;top:214px;width:462px;height:310px;display:flex;flex-direction:column;justify-content:center;align-items:flex-start}\n.copy>*{flex:none}\n.title{width:453px;max-height:148px;padding-bottom:11px;margin-bottom:-11px;overflow:hidden;font:600 62.34px/1.095 Poppins;letter-spacing:-.2px;color:#fff}\n.title .hl{color:#ffe500}\n.sub{margin-top:8px;width:453px;max-height:76px;padding-bottom:4px;margin-bottom:-4px;overflow:hidden;font:italic 400 27.8px/1.275 Poppins;color:#fff}\n.chip{margin-top:26px;height:38.67px;display:flex;align-items:center;gap:6.5px;padding:0 14px;border-radius:9.65px;background:rgba(0,64,223,.19);font:500 20.13px/1 Poppins;color:#fff;white-space:nowrap}\n.chip svg{width:22.6px;height:22.3px;flex:none}\n.cta{margin-top:18px;height:46px;display:flex;align-items:center;gap:10px;padding:0 22px;border-radius:10px;background:#ffe500;font:600 18px/1 Poppins;color:#0c1630;white-space:nowrap}\n.cta svg{width:11px;height:12px}\n.row{position:absolute;left:530px;top:86px;width:630px;height:430px;display:flex;justify-content:center;align-items:flex-start}\n.c3{gap:0}.c3 .sp+.sp{margin-left:-24px}\n.c2{gap:36px}\n.c1 .sp{transform:scale(1.2);transform-origin:50% 40%}\n.sp{position:relative;width:219px;height:426px;flex:none}\n.fr{position:absolute;left:35px;top:89.4px;width:150px;height:191.3px;border-radius:16px;transform:skewX(-14.67deg);background:linear-gradient(205deg,#2a5cff 0%,#1447f2 45%,#0a39d0 100%)}\n.ph{position:absolute;left:46px;top:5px;width:130px;height:276px;border-radius:0 0 16px 16px;overflow:hidden;transform:skewX(-14.67deg)}\n.ph img{position:absolute;left:-36px;top:0;width:202px;height:276px;max-width:none;object-fit:cover;object-position:center top;transform:skewX(14.67deg)}\n.ini{position:absolute;left:35px;top:89.4px;width:150px;height:191.3px;display:flex;align-items:center;justify-content:center;font:600 54px/1 Poppins;color:rgba(255,255,255,.92)}\n.tx{position:absolute;left:-25px;top:312px;width:200px;text-align:center}\n.tx .n{height:24px;font:500 20.63px/24px Poppins;color:#fff;white-space:nowrap;overflow:hidden}\n.tx .d{margin:0 auto;width:182px;max-height:34px;overflow:hidden;font:400 12.78px/17.02px Poppins;color:#9ebafe}\n.tile{position:absolute;left:-25px;top:380.5px;width:200px;display:flex;justify-content:center}\n.tile div{height:44.9px;min-width:100px;max-width:200px;padding:0 18px;border-radius:8px;background:#fff;display:flex;align-items:center;justify-content:center}\n.tile img{height:30px;max-width:150px;object-fit:contain}\n.tile b{font:700 15px/1 Poppins;color:#0c1630;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:164px}\n",
+ "html": "\n<div class=\"bm bm1\"></div><div class=\"bm bm2\"></div><div class=\"bm bm3\"></div><div class=\"bm bm4\"></div><div class=\"bm bm5\"></div>\n<div class=\"bm bm6\"></div><div class=\"bm bm7\"></div><div class=\"bm bm8\"></div><div class=\"bm bm9\"></div><div class=\"bm bm10\"></div>\n<div class=\"bm bm11\"></div><div class=\"bm bm12\"></div><div class=\"bm bm13\"></div>\n<div class=\"shade\"></div>\n<div class=\"pill\">\n  <div class=\"lk\"><img src=\"{{logoColor}}\" alt=\"\"><span>WEBINAR</span></div>\n  {{#partnerLogo}}<i class=\"dv\"></i><img class=\"pl\" src=\"{{partnerLogo}}\" alt=\"\">{{/partnerLogo}}\n</div>\n<div class=\"copy\">\n  <div class=\"title\" data-fit=\"40\">{{{titleHtml}}}</div>\n  {{#subhead}}<div class=\"sub\" data-fit=\"18\">{{{subheadHtml}}}</div>{{/subhead}}\n  <div class=\"chip\"><svg viewBox=\"0 0 23 22\" fill=\"none\" stroke=\"#ffe500\" stroke-width=\"1.9\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"1.5\" y=\"3\" width=\"20\" height=\"17.5\" rx=\"3.5\"/><path d=\"M1.5 8.6h20M6.8 1v3.6M16.2 1v3.6\"/><path d=\"M6.6 13.2h.01M11.5 13.2h.01M16.4 13.2h.01M6.6 16.6h.01M11.5 16.6h.01\" stroke-width=\"2.4\"/></svg><span>{{date}}{{#time}} | {{time}}{{/time}}</span></div>\n  {{#cta}}<div class=\"cta\">{{cta}}<svg viewBox=\"0 0 11 12\"><path d=\"M0 0l11 6-11 6z\" fill=\"#0c1630\"/></svg></div>{{/cta}}\n</div>\n<div class=\"row c{{speakerCount}}\">\n  {{#speakers}}<div class=\"sp\">\n    <div class=\"fr\"></div>\n    {{#photo}}<div class=\"ph\"><img src=\"{{photo}}\" alt=\"\"></div>{{/photo}}{{^photo}}<b class=\"ini\">{{initials}}</b>{{/photo}}\n    <div class=\"tx\"><div class=\"n\" data-fit=\"14\">{{name}}</div><div class=\"d\" data-fit=\"10\">{{title}}</div></div>\n    {{#logo}}<div class=\"tile\"><div><img src=\"{{logo}}\" alt=\"\"></div></div>{{/logo}}{{^logo}}{{#company}}<div class=\"tile\"><div><b>{{company}}</b></div></div>{{/company}}{{/logo}}\n  </div>{{/speakers}}\n</div>"
+}

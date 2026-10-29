@@ -1,0 +1,83 @@
+{
+ "id": "webinar-dark-ai",
+ "name": "Dark AI webinar",
+ "group": "Webinar banners",
+ "channel": "LinkedIn, landing page hero, email header",
+ "w": 1200,
+ "h": 628,
+ "theme": "dark",
+ "source": {
+  "file": "Building with Agentic AI in Healthcare",
+  "key": "1lll6W1io6OYzviL4pV0kJ",
+  "node": "1:3"
+ },
+ "notes": "Near-black canvas with a violet bloom, glassy speaker cards on the right. Best for AI and product-led topics. Use white or transparent company logos.",
+ "fields": [
+  {
+   "key": "eyebrow",
+   "label": "Eyebrow",
+   "kind": "text",
+   "default": "EXCLUSIVE WEBINAR",
+   "max": 28
+  },
+  {
+   "key": "title",
+   "label": "Webinar title",
+   "kind": "text",
+   "default": "Building with Agentic AI in Healthcare",
+   "max": 70,
+   "accent": true,
+   "accentDefault": "Agentic AI"
+  },
+  {
+   "key": "date",
+   "label": "Date",
+   "kind": "text",
+   "default": "Fri, 21st August",
+   "max": 24
+  },
+  {
+   "key": "time",
+   "label": "Time",
+   "kind": "text",
+   "default": "4:00 PM IST",
+   "max": 18
+  },
+  {
+   "key": "cta",
+   "label": "Button text",
+   "kind": "text",
+   "default": "Register now!",
+   "max": 22,
+   "optional": true,
+   "toggleLabel": "Show button"
+  }
+ ],
+ "speakers": {
+  "min": 1,
+  "max": 4,
+  "label": "Speakers",
+  "fields": [
+   "photo",
+   "name",
+   "title",
+   "logo"
+  ],
+  "defaults": [
+   {
+    "name": "Speaker Name",
+    "title": "VP – Marketing & Growth",
+    "photo": "",
+    "logo": ""
+   },
+   {
+    "name": "Speaker Name",
+    "title": "Head of AI Products",
+    "photo": "",
+    "logo": ""
+   }
+  ]
+ },
+ "css": "\n.t{background:#0b0b10;font-family:Poppins,Arial,sans-serif;color:#fff}\n.bg{position:absolute;inset:0;background:\n  radial-gradient(520px 360px at 82% 96%, rgba(104,24,231,.55), rgba(104,24,231,0) 70%),\n  radial-gradient(420px 300px at 62% 58%, rgba(71,55,228,.20), rgba(71,55,228,0) 70%),\n  radial-gradient(700px 420px at 12% 0%, rgba(40,30,90,.35), rgba(40,30,90,0) 70%)}\n.wave{position:absolute;left:-40px;top:250px;width:1300px;height:380px;opacity:.55}\n.bar{position:absolute;left:0;top:0;width:6px;height:628px;background:#6818e7}\n.left{position:absolute;left:64px;top:56px;width:560px;height:516px;display:flex;flex-direction:column;justify-content:flex-end;gap:29px;padding-bottom:67px}\n.logo{position:absolute;left:66px;top:91px;width:149px}\n.logo img{width:149px;height:auto}\n.logo .wb{font:700 9.5px/1 Poppins;letter-spacing:.9px;text-align:right;margin-top:4px;padding-right:2px}\n.eyebrow{align-self:flex-start;display:flex;align-items:center;gap:8px;height:34px;padding:0 16px 0 13px;border-radius:100px;background:rgba(185,166,255,.14);border:1px solid rgba(185,166,255,.5);color:#b9a6ff;font:600 13px/1 Poppins;letter-spacing:1.5px;text-transform:uppercase;white-space:nowrap}\n.eyebrow i{width:6px;height:6px;border-radius:50%;background:#b9a6ff;display:block}\n.title{font:600 52px/1.24 Poppins;letter-spacing:-.02em;color:#fff;max-height:130px;overflow:hidden}\n.title .hl{color:#b9a6ff}\n.meta{display:flex;align-items:center;gap:32px;font:500 16px/1 Poppins;color:#fff;margin-top:-4px}\n.meta span{display:flex;align-items:center;gap:8px;white-space:nowrap}\n.meta svg{width:22px;height:22px;stroke:#fff;fill:none;stroke-width:1.7}\n.cta{align-self:flex-start;padding:15px 28px;border-radius:12px;background:linear-gradient(90deg,#4737e4,#6918e8);font:700 17px/1 Poppins;color:#fff;box-shadow:0 8px 24px rgba(105,24,232,.35)}\n.right{position:absolute;right:64px;top:56px;width:502px;height:516px;display:flex;flex-direction:column;justify-content:center;gap:14px}\n.right .lbl{font:600 15px/1 Poppins;letter-spacing:1px;color:#b8b8c7;margin-bottom:2px}\n.card{display:flex;align-items:center;gap:16px;height:108px;padding:16px;border-radius:16px;background:rgba(10,10,10,.42);border:1px solid rgba(255,255,255,.1)}\n.few .card{height:132px}\n.ph{width:82px;height:82px;flex:none;border-radius:50%;padding:3px;background:linear-gradient(140deg,#6918e8,#4737e4 60%,#2a1c7a)}\n.few .ph{width:98px;height:98px}\n.ph img,.ph b{width:100%;height:100%;border-radius:50%;object-fit:cover;background:#1d1838}\n.ph b{display:flex;align-items:center;justify-content:center;font:600 26px/1 Poppins;color:#b9a6ff}\n.info{flex:1;min-width:0}\n.info .n{font:600 22px/32px Poppins;color:#fff;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}\n.info .d{font:400 15px/1.35 Poppins;color:#b8b8c7;max-height:41px;overflow:hidden}\n.co{width:104px;height:48px;flex:none;display:flex;align-items:center;justify-content:center}\n.co img{max-width:100%;max-height:100%;object-fit:contain}\n",
+ "html": "\n<div class=\"bg\"></div>\n<svg class=\"wave\" viewBox=\"0 0 1300 380\" fill=\"none\"><defs><linearGradient id=\"wv\" x1=\"0\" x2=\"1\"><stop offset=\"0\" stop-color=\"#6918e8\" stop-opacity=\"0\"/><stop offset=\".55\" stop-color=\"#8b6cff\" stop-opacity=\".55\"/><stop offset=\"1\" stop-color=\"#6918e8\" stop-opacity=\"0\"/></linearGradient></defs>\n<path d=\"M0 300 C 300 180, 520 120, 760 190 S 1150 330, 1300 220\" stroke=\"url(#wv)\" stroke-width=\"60\" opacity=\".25\"/>\n<path d=\"M0 330 C 320 210, 540 150, 780 220 S 1150 360, 1300 250\" stroke=\"url(#wv)\" stroke-width=\"2\"/></svg>\n<div class=\"bar\"></div>\n<div class=\"logo\"><img src=\"{{logoWhite}}\" alt=\"\"><div class=\"wb\">WEBINAR</div></div>\n<div class=\"left\">\n  {{#eyebrow}}<div class=\"eyebrow\"><i></i>{{eyebrow}}</div>{{/eyebrow}}\n  <div class=\"title\" data-fit=\"36\">{{{titleHtml}}}</div>\n  <div class=\"meta\">\n    {{#date}}<span><svg viewBox=\"0 0 24 24\"><rect x=\"3\" y=\"5\" width=\"18\" height=\"16\" rx=\"2\"/><path d=\"M3 10h18M8 3v4M16 3v4\"/></svg>{{date}}</span>{{/date}}\n    {{#time}}<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"9\"/><path d=\"M12 7v5l3 2\"/></svg>{{time}}</span>{{/time}}\n  </div>\n  {{#cta}}<div class=\"cta\">{{cta}}</div>{{/cta}}\n</div>\n<div class=\"right {{^manySpeakers}}few{{/manySpeakers}}\">\n  <div class=\"lbl\">Speakers</div>\n  {{#speakers}}<div class=\"card\">\n    <div class=\"ph\">{{#photo}}<img src=\"{{photo}}\" alt=\"\">{{/photo}}{{^photo}}<b>{{initials}}</b>{{/photo}}</div>\n    <div class=\"info\"><div class=\"n\">{{name}}</div><div class=\"d\">{{title}}</div></div>\n    {{#logo}}<div class=\"co\"><img src=\"{{logo}}\" alt=\"\"></div>{{/logo}}\n  </div>{{/speakers}}\n</div>"
+}

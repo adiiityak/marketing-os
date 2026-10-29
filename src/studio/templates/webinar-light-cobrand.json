@@ -1,0 +1,109 @@
+{
+ "id": "webinar-light-cobrand",
+ "name": "Co-branded blue webinar",
+ "group": "Webinar banners",
+ "channel": "LinkedIn, landing page hero, email header",
+ "w": 1200,
+ "h": 628,
+ "theme": "light",
+ "source": {
+  "file": "AI for Sales Leaders Webinar",
+  "key": "OtbEByOSX3kQgWBWhZ2H0O",
+  "node": "14:4217"
+ },
+ "notes": "Royal-blue circuit half with speakers on white name cards, white curved copy panel with partner + LeadSquared logos and a yellow-highlighted subhead. Best for co-hosted webinars. Cut-out (transparent PNG) speaker photos look best.",
+ "fields": [
+  {
+   "key": "partnerLogo",
+   "label": "Partner logo (dark, transparent)",
+   "kind": "logo",
+   "default": ""
+  },
+  {
+   "key": "eyebrow",
+   "label": "Eyebrow",
+   "kind": "text",
+   "default": "",
+   "max": 30,
+   "optional": true,
+   "toggleLabel": "Show eyebrow"
+  },
+  {
+   "key": "title",
+   "label": "Webinar title",
+   "kind": "text",
+   "default": "AI for Sales Leaders",
+   "max": 48,
+   "accent": true,
+   "accentDefault": ""
+  },
+  {
+   "key": "subhead",
+   "label": "Subhead (yellow highlight)",
+   "kind": "text",
+   "default": "What Works, What Doesn’t, and What’s Next",
+   "max": 64
+  },
+  {
+   "key": "date",
+   "label": "Date",
+   "kind": "text",
+   "default": "20th March",
+   "max": 24
+  },
+  {
+   "key": "time",
+   "label": "Time",
+   "kind": "text",
+   "default": "4:00 PM IST",
+   "max": 18
+  },
+  {
+   "key": "cta",
+   "label": "Button text",
+   "kind": "text",
+   "default": "Register Now",
+   "max": 20,
+   "optional": true,
+   "toggleLabel": "Show button"
+  },
+  {
+   "key": "watermark",
+   "label": "Background watermark",
+   "kind": "text",
+   "default": "AI",
+   "max": 4,
+   "optional": true,
+   "toggleLabel": "Show watermark"
+  }
+ ],
+ "speakers": {
+  "min": 1,
+  "max": 3,
+  "label": "Speakers",
+  "fields": [
+   "photo",
+   "name",
+   "title",
+   "company"
+  ],
+  "defaults": [
+   {
+    "name": "Shaily Aditya",
+    "title": "Assistant Vice President - Sales",
+    "company": "CallHippo",
+    "photo": "",
+    "logo": ""
+   },
+   {
+    "name": "Vishal Suri",
+    "title": "Associate Director - Strategic Partnerships",
+    "company": "LeadSquared",
+    "photo": "",
+    "logo": ""
+   }
+  ]
+ },
+ "css": "\n.t{background:#fff;font-family:Poppins,Arial,sans-serif;color:#2d354c}\n.field{position:absolute;left:-15px;top:-13px;width:582px;height:658px;background:\n  radial-gradient(240px 170px at 355px 610px, rgba(70,140,255,.55), rgba(70,140,255,0) 70%),\n  radial-gradient(420px 320px at 300px 330px, rgba(40,110,255,.45), rgba(40,110,255,0) 70%),\n  radial-gradient(300px 260px at 0 0, rgba(0,40,170,.35), rgba(0,40,170,0) 70%),\n  #0040df}\n.circ{position:absolute;left:0;top:0;width:566px;height:628px}\n.dots{position:absolute;left:270px;top:516px;width:166px;height:112px;background:radial-gradient(circle,#bcd4ff 1.3px,rgba(188,212,255,0) 1.7px) 0 0/9px 9px;-webkit-mask-image:radial-gradient(78px 78px at 82px 82px,#000,rgba(0,0,0,0) 100%);mask-image:radial-gradient(78px 78px at 82px 82px,#000,rgba(0,0,0,0) 100%);opacity:.9}\n.wm{position:absolute;left:210px;top:96px;font:700 100px/1 Poppins;color:rgba(255,255,255,.09);letter-spacing:-1px;white-space:nowrap}\n.curve{position:absolute;left:479px;top:0;width:171px;height:628px;border-radius:50%;background:#fff}\n.panel{position:absolute;left:564px;top:0;right:0;height:628px;background:#fff}\n.spk{position:absolute;left:0;top:0;width:600px;height:628px}\n.s{position:absolute}\n.ph{position:absolute;overflow:hidden;border-radius:50% 50% 0 0/34% 34% 0 0}\n.ph img{width:100%;height:100%;object-fit:cover;object-position:center top}\n.ph b{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,.14);border:2px solid rgba(255,255,255,.28);border-bottom:0;border-radius:inherit;font:600 64px/1 Poppins;color:#fff;padding-bottom:50px}\n.card{position:absolute;background:#fff;border-radius:17.75px;box-shadow:0 3.55px 11.7px rgba(0,0,0,.18);display:flex;flex-direction:column;justify-content:center;gap:6px}\n.card .n{font:600 19.7px/1.2 Poppins;color:#2d354c;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}\n.card .d{font:400 13.79px/16.86px Poppins;color:#4d5a80;max-height:34px;overflow:hidden}\n/* two speakers: the Figma layout */\n.c2 .s:nth-child(1){z-index:2}\n.c2 .s:nth-child(1) .ph{left:-40px;top:127px;width:357px;height:325px}\n.c2 .s:nth-child(1) .card{left:-25px;top:451px;width:342px;height:101px;padding:0 20px 0 67px}\n.c2 .s:nth-child(2) .ph{left:206px;top:87px;width:323px;height:306px}\n.c2 .s:nth-child(2) .card{left:206px;top:392px;width:357px;height:101px;padding:0 18px 0 127px}\n/* one speaker */\n.c1 .s .ph{left:96px;top:78px;width:360px;height:360px}\n.c1 .s .card{left:56px;top:420px;width:400px;height:108px;padding:0 24px 0 40px}\n.c1 .s .n{font-size:22px}\n.c1 .s .d{font-size:14.5px;line-height:18px;max-height:36px}\n/* three speakers */\n.c3 .s .ph{top:228px;width:170px;height:220px}\n.c3 .s .card{top:432px;width:170px;height:116px;padding:0 14px;justify-content:flex-start;padding-top:16px;gap:6px;border-radius:14px}\n.c3 .s .n{font-size:16px}\n.c3 .s .d{font-size:12px;line-height:14.6px;max-height:44px}\n.c3 .s .ph b{font-size:44px;padding-bottom:30px}\n.c3 .s:nth-child(1){left:18px}\n.c3 .s:nth-child(2){left:198px}\n.c3 .s:nth-child(3){left:378px}\n.c3 .s:nth-child(2) .ph{top:198px;height:250px}\n.copy{position:absolute;left:590px;top:0;width:556px;height:628px;display:flex;flex-direction:column;justify-content:center;align-items:flex-start}\n.copy>*{flex:none}\n.logos{display:flex;align-items:center;height:52px;margin-left:-4px}\n.logos .pl{height:52px;max-width:200px;object-fit:contain;object-position:left center}\n.logos .dv{width:1px;height:35px;background:#bcc7dc;margin:0 16px 0 6px}\n.logos .lsq{width:198px;height:auto}\n.eb{margin-top:30px;margin-bottom:-26px;font:600 15px/1 Poppins;letter-spacing:1.6px;text-transform:uppercase;color:#0040df;white-space:nowrap}\n.title{margin-top:41px;width:556px;max-height:134px;padding-bottom:4px;margin-bottom:-4px;overflow:hidden;font:700 54.3px/1.18 Poppins;color:#2d354c}\n.title .hl{color:#0040df}\n.sub{margin-top:7.6px;margin-left:0;width:532px;max-height:84px;padding-bottom:5px;margin-bottom:-5px;overflow:hidden;font:500 34px/1.135 Poppins;color:#46598f}\n.sub span{padding:0 9px 0 8px;-webkit-box-decoration-break:clone;box-decoration-break:clone;background:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 10' preserveAspectRatio='none'%3E%3Cpath d='M1.2 1.6 L100 1 L98.6 9.4 L0 9.8 Z' fill='%23FFF24D'/%3E%3C/svg%3E\") 0 6px/100% 30px no-repeat}\n.date{margin-top:31px;display:flex;align-items:center;gap:9px;font:600 20px/28px Poppins;color:#6374a3;white-space:nowrap}\n.date svg{width:27px;height:28px;flex:none}\n.cta{margin-top:37px;height:56.5px;padding:0 26px;display:flex;align-items:center;border-radius:10.41px;background:#0040df;border:1px solid #0038c1;box-shadow:0 4px 44.5px rgba(0,64,223,.4);font:600 17.84px/1 Poppins;color:#fff;white-space:nowrap}\n",
+ "html": "\n<div class=\"field\"></div>\n<svg class=\"circ\" viewBox=\"0 0 566 628\" fill=\"none\">\n  <defs>\n  </defs>\n  <g stroke=\"#7fa8ff\" stroke-opacity=\".38\" stroke-width=\"1.4\">\n    <path d=\"M0 64H86l26 26h120l18-18h60\"/><path d=\"M0 78H80l26 26h96\"/><path d=\"M0 92H74l26 26h62l14 14h40\"/>\n    <path d=\"M566 40H470l-22 22H372l-16 16h-44\"/><path d=\"M566 54H476l-22 22h-58\"/>\n    <path d=\"M0 214H40l30 30h70\"/><path d=\"M0 228H34l30 30h34l12 12h52\"/>\n    <path d=\"M566 170H520l-24 24h-40\"/><path d=\"M566 184H526l-24 24h-24l-14 14h-30\"/>\n    <path d=\"M0 360H58l22-22h46\"/><path d=\"M0 374H64l22-22h22\"/>\n    <path d=\"M566 300H530l-20 20h-26\"/>\n    <path d=\"M150 628V588l20-20h40l16-16h40\"/><path d=\"M520 628V596l-18-18h-60\"/>\n    <path d=\"M40 628V600l16-16h44\"/>\n  </g>\n  <g fill=\"#9dbdff\" fill-opacity=\".55\">\n    <circle cx=\"310\" cy=\"72\" r=\"3\"/><circle cx=\"202\" cy=\"104\" r=\"3\"/><circle cx=\"216\" cy=\"132\" r=\"3\"/>\n    <circle cx=\"396\" cy=\"76\" r=\"3\"/><circle cx=\"140\" cy=\"244\" r=\"3\"/><circle cx=\"162\" cy=\"270\" r=\"3\"/>\n    <circle cx=\"434\" cy=\"222\" r=\"3\"/><circle cx=\"456\" cy=\"194\" r=\"3\"/><circle cx=\"126\" cy=\"338\" r=\"3\"/><circle cx=\"108\" cy=\"352\" r=\"3\"/>\n    <circle cx=\"484\" cy=\"320\" r=\"3\"/><circle cx=\"266\" cy=\"552\" r=\"3\"/><circle cx=\"442\" cy=\"578\" r=\"3\"/><circle cx=\"100\" cy=\"584\" r=\"3\"/>\n    \n    \n    \n    \n  </g>\n</svg>\n<div class=\"dots\"></div>\n{{#watermark}}<div class=\"wm\">{{watermark}}</div>{{/watermark}}\n<div class=\"curve\"></div><div class=\"panel\"></div>\n<div class=\"spk c{{speakerCount}}\">\n  {{#speakers}}<div class=\"s\">\n    <div class=\"ph\">{{#photo}}<img src=\"{{photo}}\" alt=\"\">{{/photo}}{{^photo}}<b>{{initials}}</b>{{/photo}}</div>\n    <div class=\"card\"><div class=\"n\">{{name}}</div><div class=\"d\" data-fit=\"10\">{{title}}{{#company}}, {{company}}{{/company}}</div></div>\n  </div>{{/speakers}}\n</div>\n<div class=\"copy\">\n  <div class=\"logos\">{{#partnerLogo}}<img class=\"pl\" src=\"{{partnerLogo}}\" alt=\"\"><i class=\"dv\"></i>{{/partnerLogo}}<img class=\"lsq\" src=\"{{logoColor}}\" alt=\"\"></div>\n  {{#eyebrow}}<div class=\"eb\">{{eyebrow}}</div>{{/eyebrow}}\n  <div class=\"title\" data-fit=\"34\">{{{titleHtml}}}</div>\n  {{#subhead}}<div class=\"sub\" data-fit=\"22\"><span>{{subhead}}</span></div>{{/subhead}}\n  <div class=\"date\"><svg viewBox=\"0 0 27 28\" fill=\"none\" stroke=\"#6374a3\" stroke-width=\"2\" stroke-linecap=\"round\"><rect x=\"2.5\" y=\"4.5\" width=\"22\" height=\"21\" rx=\"4\"/><path d=\"M2.5 11h22M8.5 2v5M18.5 2v5\"/><circle cx=\"8.5\" cy=\"17\" r=\".6\" fill=\"#6374a3\"/><circle cx=\"13.5\" cy=\"17\" r=\".6\" fill=\"#6374a3\"/><circle cx=\"18.5\" cy=\"17\" r=\".6\" fill=\"#6374a3\"/></svg><span>{{date}}{{#time}} at {{time}}{{/time}}</span></div>\n  {{#cta}}<div class=\"cta\">{{cta}}</div>{{/cta}}\n</div>"
+}
