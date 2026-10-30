@@ -7,6 +7,10 @@ Source for the LeadSquared marketing AI OS:
 - **Feedback memory**: every rating comment is stored in the `feedback` collection; Studio briefs and the plugin skills apply it to the next generation.
 - **Plugin** (`plugin/`): the LeadSquared Marketing OS Cowork plugin (skills and agents).
 
+## Contributing
+
+Read [CONTRIBUTING.md](CONTRIBUTING.md) before changing anything: pull, build, test, publish to the same dashboard link, then push.
+
 ## Build
 
 ```bash
